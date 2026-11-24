@@ -1,11 +1,12 @@
 # 회고
 
 ## 접근 방식
-- 처음 떠올린 방법: for문을 거꾸로 돌면서 `substring`을 사용하여 문자열을 만들고 `endsWith(pat)`를 사용하여 `pat`로 끝나는 문자열인지 확인. 맞다면 answer에 넣고 break;
+- 처음 떠올린 방법: for문을 거꾸로 돌면서 `substring`을 사용하여 문자열을 만들고 `endsWith(pat)`를 사용하여 `pat`로 끝나는 문자열인지 확인.
+  맞다면 answer에 넣고 break;
 - 최종 선택한 방법과 이유: 동일
 
 ## 막혔던 점
-- `subString`이 아닌 `substring()`이 맞음.
+- `subString()`이 아닌 `substring()`이 맞음.
 
 ## 복잡도
 - 시간: O( )
